@@ -43,19 +43,29 @@ const Navbar = () => {
           } `}
         >
           <li>
-            <a href="#top">Home</a>
+            <a href="#top" className="font-ovo">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About me</a>
+            <a href="#about" className="font-ovo">
+              About me
+            </a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#services" className="font-ovo">
+              Services
+            </a>
           </li>
           <li>
-            <a href="#work">My Work</a>
+            <a href="#work" className="font-ovo">
+              My Work
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact me</a>
+            <a href="#contact" className="font-ovo">
+              Contact me
+            </a>
           </li>
         </ul>
         <div className="flex items-center gap-4">
@@ -64,7 +74,7 @@ const Navbar = () => {
           </button>
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo"
           >
             Contact <Image src={assets.arrow_icon} className="w-3" alt="" />
           </a>
