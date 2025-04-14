@@ -17,12 +17,12 @@ const Header = () => {
       </h1>
       <p className="max-w-2xl mx-auto">
         I am a full stack developer from Lagos Nigeria with 4+ years of
-        experience in multiple companies{" "}
+        experience
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
           href="#contact"
-          className="px-10 py-3 border rounded-full border-white flex items-center gap-2 bg-black text-white"
+          className="px-10 py-3 border rounded-full border-white flex items-center gap-2 bg-black text-white dark:bg-transparent"
         >
           Contact me
           <Image src={assets.right_arrow_white} alt="" />
@@ -30,9 +30,9 @@ const Header = () => {
         <a
           href="/kadiri_eshiomonu_resume.pdf"
           download
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
+          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >
-          My resume <Image src={assets.download_icon} alt="" />
+          My resume <Image src={assets.download_icon} alt="" className="w-4" />
         </a>
       </div>
     </div>

@@ -102,28 +102,28 @@ export const workData = [
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
+    title: "Web design and Development",
+    description: "This is the process of building, programming ...",
     link: "",
   },
   {
     icon: assets.mobile_icon,
-    title: "Mobile app",
+    title: "Software app",
     description:
-      "Mobile app development involves creating software for mobile devices...",
+      "Software app development involves creating software for mobile devices...",
     link: "",
   },
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "Computer Networking",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "This focuses on creating a seamless connection between users on the internet..",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "Cloud Computing",
+    description: "Using the cloud services to manage app deployed...",
     link: "",
   },
 ];
@@ -147,7 +147,7 @@ export const infoList = [
     iconDark: assets.project_icon_dark,
     title: "Framework",
     description:
-      "TailwindCss, Bootstrap, ReacctJs, NextJs, NodeJs, Laravel, Django",
+      "TailwindCss, Bootstrap, ReactJs, NextJs, NodeJs, Laravel, Django",
   },
 ];
 
