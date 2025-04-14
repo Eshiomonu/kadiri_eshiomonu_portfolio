@@ -78,23 +78,53 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
+    title: "My portfolio App",
+    description: "NextJs",
+    bgImage: "/work-1.png",
+  },
+  {
+    title: "Principium consults Website",
     description: "Web Design",
     bgImage: "/work-1.png",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "Dalco Hotel Management & Booking App",
+    description: "Laravel Full stack app",
+    bgImage: "/work-1.png",
+  },
+  {
+    title: "Jolafad Construction Limited",
+    description: "Web Design",
     bgImage: "/work-2.png",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "Netflix Clone",
+    description: "WebApp",
     bgImage: "/work-3.png",
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
+    title: "Real Estate Hub",
+    description: "NextJs",
+    bgImage: "/work-1.png",
+  },
+  {
+    title: "Teo Doctors Appointment App",
+    description: "Full stack web App",
+    bgImage: "/work-4.png",
+  },
+  {
+    title: "Principium consults Job Portal",
+    description: "Full stack web App",
+    bgImage: "/work-4.png",
+  },
+  {
+    title: "Laryor Beauty Ecommerce store",
+    description: "Full stack web App",
+    bgImage: "/work-4.png",
+  },
+  {
+    title: "No code Lsales landing page",
+    description: "Static website",
     bgImage: "/work-4.png",
   },
 ];
