@@ -3,10 +3,12 @@ import "./globals.css";
 
 const outfit = Outfit({
   weight: ["400", "500", "600", "700"],
+  preload: false,
 });
 
 const ovo = Ovo({
   weight: ["400"],
+  preload: false,
 });
 
 export const metadata = {
